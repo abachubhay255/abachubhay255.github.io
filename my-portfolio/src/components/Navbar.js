@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Navbar() {
     return (
-        <header className="bg-gray-800 md:sticky top-0 z-10">
+        <header className="bg-blue-600 md:sticky top-0 z-10">
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <a className="title-font font-medium text-white mb-4 md:mb-0">
                     <a href="#about" className="ml-3 text-xl">
@@ -20,13 +20,13 @@ export default function Navbar() {
                 </nav>
                 <a
                     href="https://www.linkedin.com/in/akhil-bachubhay/"
-                    className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+                    className="inline-flex items-center bg-blue-600 border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base mt-4 md:mt-0"
                     target="_blank"
                 > LinkedIn
                 </a>
                 <a
                     href="https://github.com/abachubhay255"
-                    className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+                    className="inline-flex items-center bg-blue-600 border-0 py-1 px-3 focus:outline-none hover:bg-blue-500 rounded text-base mt-4 md:mt-0"
                     target="_blank"
                 > GitHub
                 </a>
